@@ -11,8 +11,7 @@ export default class App extends Component {
                     <Image style={styles.cardImage}        
                            source={require('./assets/user.png')}/>
                 </View>
-
-                     <Text style={styles.cardName}> Sneha Katragadda</Text>
+                     <Text style={styles.cardName}>Sri Vuyyuru</Text>
                 
                 <View style={styles.cardOccupationContainer}>
                       <Text style={styles.cardOccupation}>Front-End Developer</Text>
