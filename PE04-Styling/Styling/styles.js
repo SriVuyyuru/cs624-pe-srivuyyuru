@@ -1,18 +1,15 @@
 import {StyleSheet} from 'react-native';
 
-
 export const Colors = {
     dark: 'black',
     light: 'white'
 };
-
 
 const baseContainerStyles = {
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center'
 };
-
 
 const baseBoxStyles = {
     justifyContent: 'center',
@@ -33,7 +30,6 @@ const lightStyleSheet = StyleSheet.create({
     }
 });
 
-
 const darkStyleSheet = StyleSheet.create({
     container: {
         ...baseContainerStyles,
@@ -45,7 +41,6 @@ const darkStyleSheet = StyleSheet.create({
     }
 });
 
-
-export default function getStyleSheet(useDarkTheme) {
-    return useDarkTheme ? darkStyleSheet : lightStyleSheet; 
+export default function getStyleSheet(useDarkTheme){
+    return useDarkTheme ? darkStyleSheet : lightStyleSheet;
 }
